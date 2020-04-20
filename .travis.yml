@@ -1,2 +1,10 @@
 language: minimal
+dist: xenial
+os: linux
 
+before_script:
+  - export MY_CBL="docker run --rm -v $PWD/.:/working my-cobol"
+
+script:
+  - docker build -t my-cobol .
+  - $MY_CBL cobc -x helloworld.cbl

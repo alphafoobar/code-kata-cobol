@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/alphafoobar/code-kata-cobol.svg?branch=master)](https://travis-ci.com/alphafoobar/code-kata-cobol)
+
 # Code Kata COBOL
 
 With all the fuss about a lack of COBOL developers, I thought why give it a go.
